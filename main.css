@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #f9f871;
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --darkblue: rgba(16, 23, 59, 0.9);
+
+}
+
+header {
+    background-color: var(--darkblue);
+}
+
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    border: none;
+}
+
+.header-wrapper {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn {
+    width: 311px;
+    padding: 9px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 300px;
+}
+
+.gitHUb {
+    padding: 10px 5px;
+}
+
+.hub {
+    color: #fff;
+}
+
+.barber {
+    border-radius: 50px;
+}
+
+.header-link {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #fff;
+
+}
+
+main {
+    background-color: var(--darkblue);
+}
+
+
+.JOhn {
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+
+}
+
+.main-wrapper {
+    padding-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.text {
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.card {
+    border-radius: 20px;
+    position: relative;
+    padding: 50px;
+    width: 325px;
+    background-color: #333;
+}
+
+.position-img {
+    animation-name: tepagapasga;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    top: -300px;
+    position: absolute;
+}
+
+
+@keyframes tepagapasga {
+    0% {
+        top: -300px;
+    }
+
+    50% {
+        top: -350px;
+    }
+
+    100% {
+        top: -300px;
+    }
+}
+.footer-wrapper{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: var(--darkblue);
+}
